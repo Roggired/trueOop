@@ -1,6 +1,10 @@
 package ru.mrkefir.true_oop;
 
 import ru.mrkefir.true_oop.sample.*;
+import ru.mrkefir.true_oop.sample.studentExpulsioner.DebtsExpulsioner;
+import ru.mrkefir.true_oop.sample.studentExpulsioner.DisabledExpulsioner;
+import ru.mrkefir.true_oop.sample.studentExpulsioner.FullMoonExpulsioner;
+import ru.mrkefir.true_oop.sample.studentExpulsioner.RandomExpulsioner;
 
 import java.util.Arrays;
 import java.util.Collections;

@@ -1,4 +1,4 @@
-package ru.mrkefir.true_oop.sample;
+package ru.mrkefir.true_oop.sample.studentExpulsioner;
 
 import ru.mrkefir.true_oop.Message;
 import ru.mrkefir.true_oop.MessageMediator;
