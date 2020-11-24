@@ -19,14 +19,12 @@ public final class StudentExpulsioner extends Object {
                                                                   .get("debts");
 
         if (studentDebts.isEmpty()) {
-            return new Message()
-                    .add("decision", "Не отчислен");
+            return Message.of("decision", "Не отчислен");
         } else  {
             StringBuilder stringBuilder = new StringBuilder();
             studentDebts.forEach(debt -> stringBuilder.append(debt).append(" "));
 
-            return new Message()
-                    .add("decision", "Отчислен из-за долгов: " + stringBuilder.toString());
+            return Message.of("decision", "Отчислен из-за долгов: " + stringBuilder.toString());
         }
     }
 }

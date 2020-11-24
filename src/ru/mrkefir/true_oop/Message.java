@@ -12,6 +12,11 @@ public final class Message {
     }
 
 
+    public static Message of(String key, java.lang.Object object) {
+        return new Message().add(key, object);
+    }
+
+
     public java.lang.Object get(String key) {
         return data.get(key);
     }
