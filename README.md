@@ -1,6 +1,8 @@
 # True OOP
 Alan Key's Oop on Java. For fun only :joy:
 
+In the *ru.mrkefir.true_oop.sample* package you can find example of using this "lib".
+
 ## Like Alan Key belive:  
 - **Message** - an unit of information that can be passed between objects.
 - **Object** - an abstract class which defines an Object with one abstract method *accept*.  
