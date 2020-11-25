@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="trueOop">
+    <output-path>$PROJECT_DIR$/out/artifacts/trueOop</output-path>
+    <root id="archive" name="trueOop.jar">
+      <element id="module-output" name="trueOop" />
+    </root>
+  </artifact>
+</component>
