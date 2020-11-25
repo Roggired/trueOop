@@ -4,6 +4,10 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.NoSuchElementException;
 
+/**
+ * Implements pattern Mediator. Use an instance of MessageMediator to connected
+ * some objects with each other and to invoke objects whatever you like.
+ */
 public final class MessageMediator {
     private final Map<String, Object> journal;
 

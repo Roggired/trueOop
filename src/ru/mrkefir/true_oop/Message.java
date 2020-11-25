@@ -3,6 +3,12 @@ package ru.mrkefir.true_oop;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * Unit of information. You can use named constructor {@link Message#of(String, java.lang.Object)}
+ * to create a message with one claim.
+ *
+ * Remember that you need to explicitly cast java.lang.Object to type you want.
+ */
 public final class Message {
     private final Map<String, java.lang.Object> data;
 
