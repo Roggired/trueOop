@@ -17,7 +17,7 @@ and deliver necessary information.
 - :scream: We have maximum of flexibility in out program! We can create necessary objects and delete  
 unused in runtime. All our classes are low coupled.  
 
-## Limitation:
+## Limitations:
 - :cry: Still we need to explicitly cast all java.lang.Object-s which we are passing in a message.
 - :sob: We need to be attentive with object names and message sending. Here is a huge field for  
 mistakes.
