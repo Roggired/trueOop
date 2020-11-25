@@ -1,7 +1,18 @@
 # True OOP
 Alan Key's Oop on Java. For fun only :joy:
 
-In the *ru.mrkefir.true_oop.sample* package you can find example of using this "lib".
+In the *ru.mrkefir.true_oop.sample* package you can find example of using this "lib".  
+To run this sample go to bin/sample. Here you can find executable trueOop-sample.jar.  
+Just use:
+```java -jar trueOop-sample.jar ROBOT IVT SPPO RANDOM FULL_MOON```  
+Replace capital words with true or false boolean command line parameters. This sample  
+expulses three students. Each of them belongs to one of three departments: robot, ivt, sppo.  
+If you use false, for example, instead of ```IVT```, when program will not try to expulse  
+a student of this department.
+
+Try to play with ```RANDOM``` and ```FULL_MOON``` to find out its meanings :)
+
+Please, be sure that you pass exactly 5 boolean command line params.
 
 ## Like Alan Key belive:  
 - **Message** - an unit of information that can be passed between objects.
